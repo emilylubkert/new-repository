@@ -1,0 +1,32 @@
+body {
+  width: 428px;
+  height: 926px;
+  font-family: 'Inter', sans-serif;
+}
+
+.budget-container {
+  display: flex;
+  
+}
+
+.charts-container {
+  margin-left: 8px;
+}
+
+.edit-btn, .add-btn {
+  width: 85px;
+  height: 35px;
+  border-radius: 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  border: none;
+}
+
+.edit-btn {
+  background-color: #EAF6ED;
+}
+
+.add-btn {
+  background-color: #67C587;
+  font-weight: 700;
+}
