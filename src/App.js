@@ -26,8 +26,8 @@ function App() {
   }
 
   const budgetDetails = [
-    { name: 'Montreal', spending: 7000, total: 10000, imgSrc: 'Montreal.png' },
-    { name: 'Wild Life', spending: 2500, total: 5000, imgSrc: 'wildLife.png' },
+    { name: 'Montreal', progress: 7000, total: 10000, imgSrc: 'Montreal.png' },
+    { name: 'Wild Life', progress: 2500, total: 5000, imgSrc: 'wildLife.png' },
   ];
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function App() {
         return (
           <BudgetChart
             key={index}
-            spending={item.spending}
+            progress={item.progress}
             total={item.total}
             budgetName={item.name}
             imgSrc={item.imgSrc}
