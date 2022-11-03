@@ -106,7 +106,6 @@ function BudgetChart({ progress, total, budgetName, imgSrc }) {
               cy='50%'
               outerRadius={80}
               fill='#EAF6ED'
-              label
             >
               <Cell fill='#67C587' />
             </Pie>

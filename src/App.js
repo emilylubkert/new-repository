@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Title from './components/Title';
 import './App.css';
 import BudgetChart from './components/BudgetChart';
+import Footer from './components/Footer';
 
 function App() {
   const [month, setMonth] = useState('');
@@ -48,6 +49,7 @@ function App() {
           />
         );
       })}
+      <Footer />
     </>
   );
 }

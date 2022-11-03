@@ -27,13 +27,27 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 11px;
   border: none;
+  margin-right: 13px;
 }
 
-.edit-btn {
+.submit,
+.no-btn {
+  border-radius: 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  border: none;
+  width: 113px;
+  height: 46px;
+  margin-right: 16px;
+}
+
+.edit-btn,
+.no-btn {
   background-color: #EAF6ED;
 }
 
-.add-btn {
+.add-btn,
+.submit {
   background-color: #67C587;
   font-weight: 700;
 }
@@ -69,7 +83,18 @@ body {
   text-align: center;
 }
 
-.edit-modal, .add-modal {
+.edit-modal,
+.add-modal {
   color: black;
 }
 
+input[type=number] {
+  border: none;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

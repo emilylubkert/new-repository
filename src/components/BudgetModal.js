@@ -20,9 +20,9 @@ function BudgetModal({
           <h3 className='modal-title'>Enter Amount</h3>
           <form onSubmit={handleSubmit}>
             <label hidden>Enter amount</label>
-            <input value={newAmount} type='number' onChange={handleChange} />
+            <input style={{color:'#67C587', fontFamily: 'Inter', fontSize:'large', fontWeight:700, textAlign:'center'}} classname="input" value={newAmount} type='number' onChange={handleChange} />
             <p>{prompt}</p>
-            <button onClick={closeModal}>No</button>
+            <button className='no-btn' onClick={closeModal}>No</button>
             <input className='submit' type='submit' value='Yes' />
           </form>
         </div>
