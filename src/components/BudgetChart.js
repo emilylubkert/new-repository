@@ -122,7 +122,7 @@ function BudgetChart({ progress, total, budgetName, imgSrc }) {
             Add Money
           </button>
         </div>
-        <img src={imgSrc} />
+        <img className="budget-img" src={imgSrc} />
       </div>
       <BudgetModal
         type='edit'

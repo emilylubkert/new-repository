@@ -15,9 +15,9 @@ function BudgetModal({
   }
   return (
     <div>
-      <Modal isOpen={showModal} onRequestClose={closeModal}>
+      <Modal isOpen={showModal} onRequestClose={closeModal} className='modal'>
         <div className={`${type}-modal`}>
-          <h1>Enter Amount</h1>
+          <h3 className='modal-title'>Enter Amount</h3>
           <form onSubmit={handleSubmit}>
             <label hidden>Enter amount</label>
             <input value={newAmount} type='number' onChange={handleChange} />
