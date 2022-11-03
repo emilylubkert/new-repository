@@ -4,8 +4,17 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.title-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .title-header {
   text-align: center;
+}
+
+#back-arrow {
+margin: auto;
 }
 
 .budget-container {
